@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         squareView.translatesAutoresizingMaskIntoConstraints = false
         
         let constraints = [
-            squareView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            squareView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 100),
             squareView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             squareView.widthAnchor.constraint(equalToConstant: .squareSideLength),
             squareView.widthAnchor.constraint(equalTo: squareView.heightAnchor)
